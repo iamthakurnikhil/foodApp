@@ -4,6 +4,7 @@ import LoginScreen from "../src/screens/LoginSignUpScreens/LoginScreen";
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import SignUp from "../src/screens/LoginSignUpScreens/SignUp";
+import HomeScreen from "../src/screens/HomeScreen";
 
 export default function Page() {
   const Stack = createNativeStackNavigator();
@@ -31,6 +32,11 @@ export default function Page() {
           headerShown: false,
         }}
       />
+       <Stack.Screen name="home" component={HomeScreen}
+          options={{
+            headerShown: false,
+          }}
+        />
     </Stack.Navigator>
   );
 }

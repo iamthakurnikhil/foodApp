@@ -41,7 +41,7 @@ const LoginScreen = ({ navigation }) => {
 
                 <Octicons name={showpassword == false ? "eye-closed" : "eye"} size={24} color="black" onPress={() => setShowpassword(!showpassword)} />
             </View>
-            <TouchableOpacity style={btn1} onPress={() => handlelogin()}>
+            <TouchableOpacity style={btn1}  onPress={() => navigation.navigate('home')}>
                 <Text style={{ color: colors.col1, fontSize: titles.btntxt, fontWeight: "bold" }}>Sign in</Text>
             </TouchableOpacity>
 
