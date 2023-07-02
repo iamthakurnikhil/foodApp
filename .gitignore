@@ -1,4 +1,5 @@
 node_modules/
+foodapp_admin
 .expo/
 dist/
 npm-debug.*
