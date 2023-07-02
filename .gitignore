@@ -1,4 +1,13 @@
 node_modules/
+app/
+assests/
+src/
+app.js/
+app.json/
+babel.config.js/
+index.js/
+package.json/
+package-lock.json/
 .expo/
 dist/
 npm-debug.*
